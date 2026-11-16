@@ -1,0 +1,445 @@
+  body {
+      background-color: #C6DEF1;
+      margin: 0;
+
+  }
+
+
+  #Name-Tagline {
+      background-image: linear-gradient(to bottom, #FFFFFF, #C0DEFF);
+
+
+      h1 {
+
+          font-family: "Noto Serif", Georgia, "Times New Roman", Garamond, serif;
+          font-size: 7.5rem;
+          letter-spacing: 4px;
+          text-align: center;
+          margin-top: 0;
+          margin-bottom: 0;
+          padding-top: 2%;
+          text-wrap: balance;
+
+      }
+
+      p {
+          font-family: "Noto Sans", Arial, Verdana, Tahoma, "Trebuchet MS", sans-serif;
+          font-size: 2.813rem;
+          text-align: center;
+          margin-top: 0;
+          margin-bottom: 1.5%;
+          text-wrap: balance;
+
+      }
+  }
+
+
+  #Navigation {
+
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 5%;
+      font-family: "Noto Sans", Arial, Verdana, Tahoma, "Trebuchet MS", sans-serif;
+      font-size: 1.4rem;
+      margin-top: 1%;
+
+
+
+      a {
+          color: #000000;
+          text-decoration-color: #F68BA2;
+      }
+
+      #p1 {
+          background-color: #F5E29E;
+          border-radius: 100px;
+          border: 5px solid #F68BA2;
+          padding: 0.7%;
+          padding-left: 1.3%;
+          padding-right: 1.3%;
+          text-align: center;
+
+      }
+
+      #p2 {
+          background-color: #F5E29E;
+          border-radius: 100px;
+          border: 5px solid #F68BA2;
+          padding: 0.7%;
+          padding-left: 1.3%;
+          padding-right: 1.3%;
+          text-align: center;
+      }
+
+      #p3 {
+          background-color: #F5E29E;
+          border-radius: 100px;
+          border: 5px solid #F68BA2;
+          padding: 0.7%;
+          padding-left: 1.3%;
+          padding-right: 1.3%;
+          text-align: center;
+      }
+
+      #p4 {
+          background-color: #F5E29E;
+          border-radius: 100px;
+          border: 5px solid #F68BA2;
+          padding: 0.7%;
+          padding-left: 1.3%;
+          padding-right: 1.3%;
+          text-align: center;
+      }
+
+  }
+
+
+
+  #Self {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 1%;
+
+      img {
+          margin-top: 3.5%;
+          border-radius: 100px;
+          border: 5px solid #F68BA2;
+
+      }
+
+  }
+
+
+  #About-Me {
+      width: 43%;
+      background-color: #C5EBAA;
+      border: 5px solid #F68BA2;
+      padding: 4%;
+      padding-top: 0;
+      padding-bottom: 2%;
+      margin: 1%;
+      margin-top: 4%;
+
+
+
+      h2 {
+          font-family: "Noto Serif", Georgia, "Times New Roman", Garamond, serif;
+          font-size: 3.4rem;
+          letter-spacing: 3px;
+      }
+
+      p {
+          font-family: "Noto Sans", Arial, Verdana, Tahoma, "Trebuchet MS", sans-serif;
+          font-size: 1.5rem;
+      }
+
+  }
+
+  #Others {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1%;
+      margin: 5%;
+      margin-top: 4%;
+      margin-bottom: 5%;
+
+
+      #Things-I-Love {
+          width: fit-content;
+          height: fit-content;
+          background-color: #C5EBAA;
+          border: 5px solid #F68BA2;
+          padding: 4%;
+          padding-top: 0;
+          padding-bottom: 2%;
+
+
+          h3 {
+              font-family: "Noto Serif", Georgia, "Times New Roman", Garamond, serif;
+              font-size: 2.8rem;
+              letter-spacing: 2px;
+              text-align: center;
+          }
+
+
+          ul {
+              font-family: "Noto Sans", Arial, Verdana, Tahoma, "Trebuchet MS", sans-serif;
+              font-size: 1.35rem;
+          }
+      }
+
+      #Passion-Projects {
+          background-color: #C5EBAA;
+          width: 43%;
+          border: 5px solid #F68BA2;
+          padding: 4%;
+          padding-top: 0;
+          padding-bottom: 2%;
+
+
+          h3 {
+              font-family: "Noto Serif", Georgia, "Times New Roman", Garamond, serif;
+              font-size: 2.8rem;
+              letter-spacing: 2px;
+          }
+
+          ul {
+              font-family: "Noto Sans", Arial, Verdana, Tahoma, "Trebuchet MS", sans-serif;
+              font-size: 1.40rem;
+          }
+
+          p {
+              font-family: "Noto Sans", Arial, Verdana, Tahoma, "Trebuchet MS", sans-serif;
+              font-size: 1.35rem;
+          }
+
+      }
+
+
+  }
+
+
+  #Back {
+
+
+      font-family: "Noto Sans", Arial, Verdana, Tahoma, "Trebuchet MS", sans-serif;
+      font-size: 1.4rem;
+      margin: auto;
+      margin-bottom: 2%;
+
+      width: fit-content;
+      background-color: #F5E29E;
+      border-radius: 100px;
+      border: 5px solid #F68BA2;
+      padding: 0.7%;
+      padding-left: 1.3%;
+      padding-right: 1.3%;
+      text-align: center;
+
+
+      a {
+          color: #000000;
+          text-decoration-color: #F68BA2;
+      }
+
+  }
+
+
+  #Contact {
+      background-color: #F5E29E;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 5%;
+      width: 100%;
+      border-top: 5px solid #F68BA2;
+
+
+
+      h3 {
+          font-family: "Noto Serif", Georgia, "Times New Roman", Garamond, serif;
+          font-size: 2.125rem;
+          letter-spacing: 2px;
+      }
+
+      p {
+          font-family: "Noto Sans", Arial, Verdana, Tahoma, "Trebuchet MS", sans-serif;
+          font-size: 1.25rem;
+
+          a {
+              color: #000000;
+              text-decoration-color: #F68BA2;
+
+          }
+
+      }
+
+  }
+
+
+
+  /* Small Screens */
+
+  @media (max-width: 600px) {
+
+      #Name-Tagline {
+
+          h1 {
+              font-size: 4.375rem;
+              padding-top: 5%;
+          }
+
+          p {
+              font-size: 1.75rem;
+              padding-bottom: 4%;
+          }
+      }
+
+
+      #Navigation {
+          flex-wrap: wrap;
+          font-size: 1.2rem;
+          margin-bottom: 6%;
+
+          #p1 {
+
+              padding-top: 1%;
+              padding-left: 3%;
+              padding-right: 3%;
+              padding-bottom: 2%;
+
+
+          }
+
+          #p2 {
+
+              padding-top: 1%;
+              padding-left: 3%;
+              padding-right: 3%;
+              padding-bottom: 2%;
+
+
+          }
+
+          #p3 {
+
+              padding-top: 1%;
+              padding-left: 3%;
+              padding-right: 3%;
+              padding-bottom: 2%;
+
+          }
+
+          #p4 {
+              padding-top: 1%;
+              padding-left: 3%;
+              padding-right: 3%;
+              padding-bottom: 2%;
+          }
+
+      }
+
+
+      #Self {
+          flex-direction: column;
+
+
+          img {
+              margin-bottom: 3%;
+              width: 75%;
+              height: 85%;
+          }
+
+      }
+
+      #About-Me {
+          width: 72%;
+          padding: 10%;
+          padding-top: 0;
+          padding-bottom: 8%;
+          margin-bottom: 3%;
+
+          h2 {
+              text-align: center;
+              font-size: 2.9rem;
+
+          }
+
+          p {
+              font-size: 1.3rem;
+
+          }
+      }
+
+
+      #Others {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          margin-left: 3%;
+          margin-right: 7%;
+
+          #Things-I-Love {
+              width: 84%;
+              padding: 8%;
+              padding-top: 0;
+              padding-right: 10%;
+              margin-bottom: 8%;
+              
+
+
+              h3 {
+                  font-size: 2.5rem;
+              }
+
+
+              ul {
+                  font-family: "Noto Sans", Arial, Verdana, Tahoma, "Trebuchet MS", sans-serif;
+                  font-size: 1.2rem;
+              }
+          }
+
+          #Passion-Projects {
+              width: 84%;
+              padding: 8%;
+              padding-top: 0;
+              padding-right: 10%;
+
+              h3 {
+                  text-align: center;
+                  font-size: 2.5rem;
+
+              }
+
+              ul {
+                  font-size: 1.25rem;
+              }
+
+              p {
+                  font-size: 1.2rem;
+              }
+
+          }
+
+      }
+
+      #Back {
+          font-size: 1.2rem;
+          padding-top: 1%;
+          padding-left: 3%;
+          padding-right: 3%;
+          padding-bottom: 2%;
+          margin-top: 14%;
+          margin-bottom: 7%;
+
+      }
+
+      #Contact {
+
+          flex-direction: column;
+          padding-top: 2%;
+          padding-bottom: 7%;
+
+          h3 {
+              font-size: 1.9rem;
+              margin-bottom: 3%;
+          }
+
+          p {
+              font-size: 1.15rem;
+
+          }
+
+      }
+
+
+
+  }
